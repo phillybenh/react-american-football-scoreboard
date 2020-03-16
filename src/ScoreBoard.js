@@ -3,8 +3,7 @@ import "./App.css";
 import BottomRow from "./BottomRow";
 
 
-function ScoreBoard({home, away}) {
-
+function ScoreBoard({ home, away }) {
 
   return (
     <section className="scoreboard">

@@ -1,6 +1,7 @@
 //TODO: STEP 1 - Import the useState hook.
 import React, { useState } from "react";
 import ScoreBoard from "./ScoreBoard.js";
+// import Teams from "./Teams.js";
 import "./App.css";
 
 function App() {
@@ -44,7 +45,8 @@ function App() {
             </button>
           </div>
         </section>
-      </div>{" "}
+        {/* <Teams /> */}
+      </div>
     </div>
   );
 }
